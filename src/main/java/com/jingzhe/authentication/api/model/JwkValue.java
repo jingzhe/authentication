@@ -10,7 +10,6 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 import lombok.NonNull;
 
-@JsonInclude(JsonInclude.Include.NON_ABSENT)
 @JsonNaming(PropertyNamingStrategies.SnakeCaseStrategy.class)
 @Builder
 @Data
