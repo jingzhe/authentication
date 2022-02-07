@@ -26,9 +26,10 @@ mvn package
 ```
 docker build -t jingzheyu/authentication .
 ```
-### Run the Docker container
+### Run the Docker container with docker-compose together with Building service 
 ```
-docker run -p 8082:8082 jingzheyu/authentication
+docker-compose up
+```
 
 ## How to update the key
 keytool -genkeypair -alias building_auth -keyalg RSA -keypass testpass -storepass storepass -validity 1000 -deststoretype jks -keystore building.jks
