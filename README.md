@@ -34,3 +34,6 @@ docker-compose up
 ## How to update the key
 keytool -genkeypair -alias building_auth -keyalg RSA -keypass testpass -storepass storepass -validity 1000 -deststoretype jks -keystore building.jks
 keytool -exportcert -keystore building.jks -alias building_auth -rfc -file building_pub.crt
+
+testing, testing
+
